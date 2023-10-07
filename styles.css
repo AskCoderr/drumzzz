@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(38, 44, 45);
+}
+
+.nav {
+  position: relative;
+  background-color: rgb(17, 17, 17);
+}
+
+.drumz {
+  font-family: 'Rajdhani', sans-serif;
+  color: rgb(185, 168, 153);
+  display: inline;
+  margin: 0;
+}
+
+.brand {
+  font-family: 'Rajdhani', sans-serif;
+  color: rgb(216, 203, 203);
+  display: inline;
+  position: absolute;
+  right: 1%;
+  bottom: -20px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.img-container {
+  position: relative;
+  border-style: solid;
+  height: 8rem;
+  width: 8rem;
+  overflow: hidden;
+  background-color: white;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.51);
+  position: absolute;
+}
+
+.pressed {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.key-text {
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  position: absolute;
+  transform: translate(75%, 75%);
+}
